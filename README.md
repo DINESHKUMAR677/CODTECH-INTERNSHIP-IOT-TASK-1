@@ -6,70 +6,70 @@ Domain: Internet of Things
 Duration: June to July 2024
 Mentor: Mohammed Muzammil Ahmed
 
-Overview of the Project
-Project: Weather Montioring Station using ESP32 with DHT11 Sensor and Thingspeak
-Objective
+## Overview of the Project
+### Project: Weather Montioring Station using ESP32 with DHT11 Sensor and Thingspeak
+### Objective
 The primary objective of the program is to periodically read temperature and humidity data from a DHT11 sensor, calculate the heat index, and transmit these values to a ThingSpeak channel for monitoring and analysis.
 
-Key Activities
-Initialize Serial Communication:
+## Key Activities
+### Initialize Serial Communication:
 
 Sets up a serial connection for debugging and monitoring outputs using Serial.begin(115200).
-Configure WiFi Mode:
+### Configure WiFi Mode:
 
 Sets the ESP32 to connect to an existing WiFi network using WiFi.mode(WIFI_STA).
-Start ThingSpeak Communication:
+### Start ThingSpeak Communication:
 
 Initializes the connection to ThingSpeak for data uploads with ThingSpeak.begin(client).
-Initialize DHT Sensor:
+### Initialize DHT Sensor:
 
 Prepares the DHT11 sensor for reading temperature and humidity using dht.begin().
 Check WiFi Connection:
 
 Verifies and attempts to reconnect to WiFi if the connection is lost using WiFi.status().
-Read Sensor Data:
+### Read Sensor Data:
 
 Retrieves temperature and humidity from the DHT11 sensor using dht.readHumidity() and dht.readTemperature().
-Calculate Heat Index:
+### Calculate Heat Index:
 
 Computes the perceived temperature based on humidity and temperature using dht.computeHeatIndex().
-Print Data to Serial Monitor:
+### Print Data to Serial Monitor:
 
 Outputs the sensor readings and computed heat index to the serial monitor for debugging with Serial.print().
-Upload Data to ThingSpeak:
+### Upload Data to ThingSpeak:
 
 Sends the sensor readings to a ThingSpeak channel using ThingSpeak.writeFields().
 Update Timer: - Resets the timer to control the interval between data transmissions using lastTime = millis().
 
-Technologies Used
-ESP32:
+## Technologies Used
+### ESP32:
 
 A microcontroller with integrated WiFi and Bluetooth, used for IoT applications.
-DHT11 Sensor:
+### DHT11 Sensor:
 
 A digital sensor that measures temperature and humidity.
-WiFi Library (WiFi.h):
+### WiFi Library (WiFi.h):
 
 Enables the ESP32 to connect to WiFi networks.
-ThingSpeak Library (ThingSpeak.h):
+### ThingSpeak Library (ThingSpeak.h):
 
 Facilitates sending data to the ThingSpeak cloud service for storage and visualization.
-DHT Library (DHT.h):
+### DHT Library (DHT.h):
 
 Provides functions to interact with DHT sensors, like reading temperature and humidity.
-Serial Communication:
+### Serial Communication:
 
 Used for debugging by sending data to a connected computer via the serial port.
-Arduino IDE:
+### Arduino IDE:
 
 The integrated development environment used to write and upload code to the ESP32.
-C++ Programming Language:
+### C++ Programming Language:
 
 The language used to write the program for the ESP32.
-ThingSpeak:
+### ThingSpeak:
 
 An IoT cloud platform for aggregating, visualizing, and analyzing live data streams.
-Hardware and Software Required
+## Hardware and Software Required
 ● ESP32
 ● DHT22 (Humidity+Temperature)
 ● 10K Resistor - 1 Qty
@@ -79,7 +79,7 @@ Hardware and Software Required
 ● Arduino IDE
 ● Thingspeak account
 
-Steps to do this project:
+## Steps to do this project:
 Before starting this installation procedure, make sure you have the latest version of the Arduino IDE installed in your computer. If you don’t, uninstall it and install it again. Otherwise, it may not work.
 
 For installing ESP32 in Arduino IDE go to the Arduino IDE in that go to File->Prefernces
@@ -113,5 +113,5 @@ image
 Output in ThingSpeak
 image
 
-Conclusion
+## Conclusion
 This project successfully demonstrates how to integrate the ESP32 microcontroller with a DHT11 sensor and the ThingSpeak cloud service for real-time environmental monitoring. By leveraging WiFi connectivity and cloud-based data logging, the system provides an efficient solution for various IoT applications. The concise code structure and use of libraries make it adaptable for a wide range of projects. With minor adjustments, it can be tailored to specific use cases,from home automation to industrial monitoring.
