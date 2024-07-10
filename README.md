@@ -1,10 +1,10 @@
 # CODTECH-INTERNSHIP-IOT-TASK-1
-Name: DINESHKUMAR S
-Company: CODETECH IT SOLUTIONS
-ID: CT08DS1824
-Domain: Internet of Things
-Duration: June to July 2024
-Mentor: Mohammed Muzammil Ahmed
+**Name**: DINESHKUMAR S
+**Company**: CODETECH IT SOLUTIONS
+**ID**: CT08DS1828
+**Domain**: Internet of Things
+**Duration**: June to July 2024
+**Mentor**: Mohammed Muzammil Ahmed
 
 ## Overview of the Project
 ### Project: Weather Montioring Station using ESP32 with DHT11 Sensor and Thingspeak
@@ -104,14 +104,14 @@ Go to My Channels > press New Channel > Create Name > Create fields based on you
 
 Our work is done.
 
-Circuit Diagram
-image
+## Circuit Diagram
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://private-user-images.githubusercontent.com/167459628/346424176-31074f9d-4207-41e2-9e1e-be4cc3a4eb41.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2MTY4MjMsIm5iZiI6MTcyMDYxNjUyMywicGF0aCI6Ii8xNjc0NTk2MjgvMzQ2NDI0MTc2LTMxMDc0ZjlkLTQyMDctNDFlMi05ZTFlLWJlNGNjM2E0ZWI0MS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcxMFQxMzAyMDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kY2ZlZTZjNzVjMWYxNjU4ODdmOTNkNTA2MTM3YjM1ZDc4ZmMzYjJmYTg2ODcwZTRmYWQ1ZDRhZTJmMGUzMmQ4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.J2hRI3sc8ye9BVjk1q3mS6LVOFbHUPwcRypr6djrSrQ)
 
-Output in Serail Monitor
-image
+## Output in Serail Monitor
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://private-user-images.githubusercontent.com/167459628/346424702-1d3f23ea-c37e-4540-86ad-ebab651e06bb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2MTY4MjMsIm5iZiI6MTcyMDYxNjUyMywicGF0aCI6Ii8xNjc0NTk2MjgvMzQ2NDI0NzAyLTFkM2YyM2VhLWMzN2UtNDU0MC04NmFkLWViYWI2NTFlMDZiYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcxMFQxMzAyMDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYTk3NTEzMzJlMGQzOGQ2NTIyYmY4MzkwMzM3ZTBjNmFlNDE4OWE2MTkxYzM5MmY0MjkxMTNiYTE4NzY3ZTEzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.K6dyHmrmPXCkDHv7SGlq022zxlNlHO6KTJ0QmLgn5sw)
 
-Output in ThingSpeak
-image
+## Output in ThingSpeak
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://private-user-images.githubusercontent.com/167459628/346429572-2e45f144-4980-4f08-bfdb-e0d507aed5dc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2MTY4MjMsIm5iZiI6MTcyMDYxNjUyMywicGF0aCI6Ii8xNjc0NTk2MjgvMzQ2NDI5NTcyLTJlNDVmMTQ0LTQ5ODAtNGYwOC1iZmRiLWUwZDUwN2FlZDVkYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcxMFQxMzAyMDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yYjY2ZjQ0ZDAwNGJlOGJhMDE4MDYxNjM3ZGNmOGEwZjM2YTZlNzIzNzUwNDkxYzFjMzdiNGI0ODZmYjVmMTg4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.tAOpRYns5ghXuXv62YSWNBZl2lfCmjgsvqiGpT1srt0)
 
 ## Conclusion
 This project successfully demonstrates how to integrate the ESP32 microcontroller with a DHT11 sensor and the ThingSpeak cloud service for real-time environmental monitoring. By leveraging WiFi connectivity and cloud-based data logging, the system provides an efficient solution for various IoT applications. The concise code structure and use of libraries make it adaptable for a wide range of projects. With minor adjustments, it can be tailored to specific use cases,from home automation to industrial monitoring.
